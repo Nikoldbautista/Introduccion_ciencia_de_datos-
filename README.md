@@ -1,40 +1,36 @@
-# Análisis de Créditos y Gestión de Clientes 📊
+# Repositorio de Análisis de Datos y Gestión de Clientes 📊
 
-Este repositorio contiene una serie de cuadernos de Jupyter (`.ipynb`) y conjuntos de datos enfocados en el análisis exploratorio de datos (EDA), procesamiento de información de clientes y modelos de predicción de incumplimiento de pagos de tarjetas de crédito.
+Este repositorio contiene el material de clase y los conjuntos de datos utilizados para el estudio del comportamiento crediticio y la gestión de información de clientes.
 
-## 📁 Estructura del Proyecto
+## 📁 Estructura del Repositorio
 
-El repositorio se organiza de la siguiente manera:
+A continuación se detallan los archivos contenidos en este proyecto:
 
-* **Notebooks Principales:**
-    * `Informe.ipynb`: Documento principal con los resultados y conclusiones finales del análisis.
-    * `Case_5.ipynb`: Resolución de un caso práctico específico (Caso 5).
-* **Material de Clase:**
-    * `Clase_1.ipynb` y `Clase_4.ipynb`: Ejercicios y laboratorios desarrollados durante las sesiones formativas.
-* **Datasets:**
-    * `customers.csv`: Información demográfica y de perfil de los clientes.
-    * `default of credit card clients.xls`: Datos históricos sobre pagos y estados de cuenta para la predicción de default.
+### 📔 Material de Clase (Notebooks)
+* [**Clase_1.ipynb**](./Clase_1.ipynb): Introducción y primeros pasos en el análisis de datos.
+* [**Clase_4.ipynb**](./Clase_4.ipynb): Técnicas avanzadas de procesamiento y visualización.
+* [**Case_5.ipynb**](./Case_5.ipynb): Resolución del caso práctico número 5.
+* [**Informe.ipynb**](./Informe.ipynb): Documentación y conclusiones del análisis realizado.
 
-## 🚀 Tecnologías Utilizadas
+### 🗃️ Datasets (Conjuntos de Datos)
+* [**customers.csv**](./customers.csv): Datos demográficos de los clientes.
+* [**default of credit card clients.xls**](./default%20of%20credit%20card%20clients.xls): Datos históricos para la predicción de impagos de tarjetas de crédito.
 
-* **Python 3.x**
-* **Pandas**: Manipulación y limpieza de datos.
-* **Matplotlib / Seaborn**: Visualización de datos.
-* **Jupyter Notebook**: Entorno de desarrollo interactivo.
+## 📚 Contenidos del Curso
 
-## 🛠️ Cómo empezar
+A lo largo del desarrollo de estos archivos, se cubren los siguientes temas:
 
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-    ```
-2.  **Instalar dependencias:**
-    Asegúrate de tener instaladas las librerías necesarias:
-    ```bash
-    pip install pandas matplotlib seaborn openpyxl
-    ```
-3.  **Ejecutar los Notebooks:**
-    Abre Jupyter Lab o Jupyter Notebook y navega hasta el archivo `Informe.ipynb` para ver el análisis completo.
+1.  **Limpieza de Datos:** Manejo de valores nulos y formatos de archivos (CSV y Excel).
+2.  **Análisis Exploratorio (EDA):** Identificación de patrones en el comportamiento de pago de los clientes.
+3.  **Visualización Estadística:** Creación de gráficos para entender la distribución de créditos.
+4.  **Modelado de Riesgo:** Preparación de datos para la predicción de "default" o incumplimiento.
+
+## 🛠️ Requisitos
+
+Para ejecutar los archivos `.ipynb`, se recomienda contar con:
+* Python 3.x
+* Jupyter Notebook / Lab
+* Librerías: `pandas`, `matplotlib`, `seaborn`, `xlrd`, `openpyxl`.
 
 ---
-Generado con fines académicos/profesionales.
+*Nota: Los enlaces anteriores funcionan localmente dentro del repositorio de GitHub.*
